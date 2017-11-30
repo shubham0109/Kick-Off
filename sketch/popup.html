@@ -1,0 +1,70 @@
+<html>
+<head>
+	<meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'">
+	<!-- <script
+	  src="https://code.jquery.com/jquery-3.2.1.min.js"
+	  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+	  crossorigin="anonymous">
+	</script> -->
+	<script type="text/javascript" src="jquery.js"></script>
+	<link rel="stylesheet" type="text/css" href="popup.css">
+	<script>
+		var newheight = window.height * (5/10);
+var newwidth = window.width * (7/10);
+window.resizeTo(newheight, newwidth);
+</script>
+
+</head>
+
+<body>
+	<center><h1>NEXT FIXTURES!!</h1></center>
+<!-- 	<button id="btn0">
+		Next Games
+	</button>
+ -->
+	<center>
+	<div id="div0" class="hidden">
+		<button id="btn1">
+			EPL	
+		</button>
+		<br>
+
+		<button id="btn2">
+			BUNDESLIGA
+		</button>
+		<br>
+
+		<button id="btn3">
+			LALIGA
+		</button>
+		<br>
+
+		<button id="btn4">
+			SERIE A
+		</button>
+		<br>
+
+		<button id="btn5">
+			LIGUE 1
+		</button>
+		<br>
+		<!-- The Modal -->
+		<div id="myModal" class="modal">
+
+		  <!-- Modal content -->
+		  <div class="modal-content">
+		    
+		    <div class="modal-header">
+		      <span class="close">&times;</span>
+		      <h2></h2>
+		    </div>
+		    <div id="div1" class="modal-body">
+		    </div>
+		  </div>
+
+		</div>
+	</div>
+	</center>
+</body>
+	<script src="popup.js"></script>
+</html>

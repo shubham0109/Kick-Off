@@ -1,0 +1,24 @@
+{
+	"manifest_version" : 2,
+	"name" : "first chrome extension",
+	"version" : "1.1",
+	"content_scripts":[
+		{
+			"matches" : [
+				"<all_urls>"
+			],
+			"js" : ["content.js"]
+		}
+	],
+//	"background": {
+//		"scripts" : ["popup.js"]
+//	},
+	"browser_action" : {
+		"default_icon" : "icon.png",
+		"default_popup" : "sketch/popup.html",
+		"default_title" : "Kick Off!"
+	}
+	//"browser_action" : {
+		
+	//}
+}
